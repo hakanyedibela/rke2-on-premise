@@ -1,6 +1,6 @@
-./cluster/.terraform/
-./cluster/kubeconfig.yaml
-./cluster/.terraform.lock.hcl
-./cluster/terraform.tfstate
-./cluster/terraform.tfstate.backup
+/cluster/.terraform/
+/cluster/.terraform.lock.hcl
+/cluster/kubeconfig.yaml
+/cluster/terraform.tfstate
+/cluster/terraform.tfstate.backup
 .idea
