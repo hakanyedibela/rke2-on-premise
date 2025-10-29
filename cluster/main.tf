@@ -9,7 +9,16 @@ terraform {
       source  = "hashicorp/external"
       version = "~> 2.3"
     }
+    kubernetes = {
+      source  = "hashicorp/kubernetes"
+      version = "~> 2.23"
+    }
   }
+}
+
+# Kubernetes provider configuration
+provider "kubernetes" {
+  config_path = "${path.module}/kubeconfig.yaml"
 }
 
 locals {

@@ -3,4 +3,5 @@
 /cluster/kubeconfig.yaml
 /cluster/terraform.tfstate
 /cluster/terraform.tfstate.backup
+/cluster/.terraform.tfstate.lock.info
 .idea
